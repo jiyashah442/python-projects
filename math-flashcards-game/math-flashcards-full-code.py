@@ -323,7 +323,7 @@ mytab.pack(expand=1, fill='both')
 
 #------ Setting Background Image ------
 #define the image as a file from directory/device
-bg = PhotoImage(file="tab1bg.png")
+bg = PhotoImage(file="images/tab1bg.png")
 
 #configure the label to display the bg image
 bglabel1 = Label(tab1, image=bg)
